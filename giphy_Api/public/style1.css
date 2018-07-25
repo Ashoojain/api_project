@@ -1,0 +1,12 @@
+body {
+    background-image: url("http://i.imgur.com/GoY5UJq.gif");
+    background-size: cover;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+
+h1{ color:white;
+// text-align: center;
+    font-size: 50px;
