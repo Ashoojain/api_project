@@ -3,28 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Goibibo</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-
-   <!--   <link  rel="stylesheet" type="text/css" href="/style.css">  -->
+     <link  rel="stylesheet" type="text/css" href="/style.css"> 
 </head>
-<body id="abs">
-<div class="cc">
-<h1> WELCOME TO BUS STATION </h1>
-    <h2 >FIND A BUS</h2>
-<div class="flex-container">
-    <form action="/results" method="get">
-       <br>
-        SOURCE:
-        <input type="text" placeholder="Search" name="source"><br>
-        DESTINATION:
-        <input type="text" placeholder="Destination name"  name="destination"><br>
-        DATE OF DEPARTURE:
-        <input type="text" placeholder="Departure date" name="dateofdeparture">
+<body>
 
-        <button>SEARCH</button>
-    </form>
+    <div class="container-fluid"> <h1 align="right" style="color:black">Mady By Ashoo Jain</h1></div>
+        
+<div class="container">
+    <div class="card card-block">
+    <div class="card-block"><h1 align="center" class="card-title"> WELCOME TO BUS STATION </h1>
+</div><h3 style="padding-left: 10px;"><strong>Book Bus Tickets Online Information</strong><h3>
+<div  class="card-block box1">
+  &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp
+  <form action="/results" method="get">
+    <input  style="margin-left: 4px;" align="center" class="col-md-5"type="text" placeholder="From: City Name" name="source">
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input i class="col-md-5" type="text" placeholder="To: City Name" name="destination">
+   <input class="col-md-5 tt"type="text" placeholder="Date:Choose Date" name="dateofdeparture"><h4>(Date Format Should be YYYYMMDD)</h4>
 
+<button class="col-md-12 " style="height: 50px"> Get Set Go</button></form></div>
+  </div>
 </div>
+
+</script>
 
 </body>
 </html>

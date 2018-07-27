@@ -1,16 +1,26 @@
 body {
-    background-image: url("http://i.imgur.com/GoY5UJq.gif");
+    background-color: #D7D6D6;
     background-size: cover;
     font-family: sans-serif;
     text-align: center;
 
-}a {
-     color: white;
-     text-decoration: none;
-    font-size: 40px;
+}table{ 
+	background-color: white;
+}
 
+ th { background-color: #EADCD6;
+ 	color: #166bd3;
  }
-
-h1{ color:white;
-// text-align: center;
-    font-size: 50px;
+ td {
+ 	cursor: pointer;
+ }
+ tr:hover {
+ 	background-color: #f26722;
+ 	 transform:scale(1.1);
+ }
+ tr {
+ 	transition:1s;
+ }
+ h1{
+ 	color: #9A112C;
+ }

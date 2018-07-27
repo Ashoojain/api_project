@@ -1,10 +1,24 @@
 <h1> SEARCH RESULT:</h1>
+  <link  rel="stylesheet" type="text/css" href="/style1.css">
 
-
-<%=data.data.onwardflights[0].origin%>
-
+<table cellpadding="20" align="center">
+<tr>
+<th>Departure Time </th><th> Duration</th><th> Arrival Time</th><th> Travels Name</th><th>Seat Available </th><th> Price(Rs.)</th>
+</tr>
+<% for(var i=0;i<data.data.onwardflights.length;i++){%>
+ <tr> <td align="center">
+<%=data.data.onwardflights[i].DepartureTime%>
+</td>
+<td align="center">    <%=data.data.onwardflights[i].duration%>   </td>
+<td align="center">  <%=data.data.onwardflights[i].ArrivalTime%>   </td>
+<td align="center">  <%=data.data.onwardflights[i].TravelsName%> </td>
+<td align="center">  <%=data.data.onwardflights[i].RouteSeatTypeDetail.list[0].SeatsAvailable%> </td>
+<td align="center"> <%=data.data.onwardflights[i].fare.totalfare%> </td>
+</tr>
  
 
+<%}%>
+</table>
 
 <a href="/">Search Again</a>
   

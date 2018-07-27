@@ -31,7 +31,7 @@ app.get('/results', function (req , res) {
 
 // const PORT =process.env ||1000;
 
-app.listen(9000,function () {
+app.listen(7000,function () {
 
 console.log("SERVER  is RUNNING")
 })
